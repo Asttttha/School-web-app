@@ -141,7 +141,7 @@ const Students = ({refreshKey}) => {
     }, [refreshKey])
 
     return (
-        <div className='p-2 md:p-10' aria-labelledby="activities-title">
+        <div className='p-2 md:p-10 pt-24 md:pt-24' aria-labelledby="activities-title">
             <header>
                 <h1 id="activities-title" className='text-4xl font-bold text-gray-700 text-center mb-10'>Student Activities</h1>
             </header>
