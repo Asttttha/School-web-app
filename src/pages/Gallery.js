@@ -85,7 +85,7 @@ const Gallery = ({ refreshKey }) => {
     });
 
     return (
-        <div className='flex items-center flex-col p-10 gap-5'>
+        <div className='flex items-center flex-col p-10 gap-5 pt-24 md:pt-24'>
             <p className='text-3xl font-bold text-gray-700 text-center'>
                 School Gallery
             </p>
