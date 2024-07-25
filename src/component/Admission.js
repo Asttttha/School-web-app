@@ -18,7 +18,7 @@ const Admission = () => {
         });
     };
     return (
-        <div className='p-10'>
+        <div className='p-10 pt-24 md:pt-24'>
             <p className='text-4xl font-bold text-gray-700 text-center mb-10'>Admission details</p>
             <div className='bg-white p-10 flex flex-col md:flex-row w-full justify-center'>
                 <div className='md:w-2/4'>
