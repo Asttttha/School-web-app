@@ -17,7 +17,7 @@ const Faculty = ({ refreshKey }) => {
     }, [refreshKey])
 
     return (
-        <div className='flex items-center flex-col p-2 md:p-10 gap-10'>
+        <div className='flex items-center flex-col p-2 md:p-10 gap-10 pt-24 md:pt-24'>
             <p className='text-3xl font-bold text-gray-700 text-center'>Faculty members</p>
             <div className='flex flex-col md:flex-row md:flex-wrap justify-center bg-white p-5 md:p-10'>
                 {faculty.map((f) => (
