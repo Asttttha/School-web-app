@@ -8,7 +8,7 @@ const Main = () => {
 
   return (
 
-    <div className='text-white pt-24 md:pt-24'>
+    <div className='text-white pt-20 md:pt-20'>
       <Home />
       <Carousel />
       <QuickLinks />
