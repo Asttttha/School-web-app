@@ -32,7 +32,7 @@ const Contact = ({ refreshKey }) => {
     };
 
     return (
-        <div className='flex flex-col-reverse md:flex-row p-4 md:p-10'>
+        <div className='flex flex-col-reverse md:flex-row p-4 md:p-10 pt-24 md:pt-24'>
 
             {/* Contact form */}
             <form className='md:w-2/4 bg-white' aria-labelledby="contact-form-title" data-aos="fade-up" data-aos-duration="1000" >
